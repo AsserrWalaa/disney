@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: white;
+  font-family: sans-serif;
+}
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgb(54, 54, 255);
+}
+
+/*start header  */
+header {
+  background-image: url(../images/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+header div {
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+}
+header div button {
+  font-size: 12px;
+  border: white;
+  margin-top: 2rem;
+  padding: 0.7rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+/* start section 1 */
+.one {
+  gap: 50px;
+  padding: 50px 100px;
+  display: flex;
+}
+.one h1 {
+  padding-bottom: 15px;
+}
+.one h1,
+.one i {
+  color: rgb(80, 80, 255);
+}
+.one > div > div {
+  margin-top: 40px;
+}
+/* end section 1 */
+/* start section 2 */
+.two-pics {
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.two img {
+  padding: 20px;
+  width: 30%;
+}
+/* end section 2 */
+/* start section 3 */
+
+/* end section 3 */
+
+/* start section 4 */
+.four h1,
+.four p {
+  text-align: center;
+}
+.four p {
+  color: #606060;
+}
+.four img {
+  line-height: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+.robert-williams {
+  padding: 30px;
+  text-align: center;
+}
+/* end section 4*/
+
+/* start section 5*/
+.five .services {
+  padding: 3rem;
+  gap: 50px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.service1,
+.service2 {
+  padding: 3rem;
+  gap: 50px;
+  display: flex;
+}
+.service1 i,
+.service2 i {
+  padding-right: 10px;
+  color: rgb(54, 54, 255);
+}
+.service1 p,
+.service2 p {
+  font-size: 15px;
+  padding: 1rem 0;
+}
+.five .services .div {
+  width: 30%;
+}
+/* end section 5*/
+
+/* start section 6 */
+
+/* end section 6 */
+/* start section 7 */
+.seven {
+  padding: 3rem 0;
+  width: 100%;
+}
+.seven h1 {
+  padding-bottom: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 40px;
+}
+.team {
+  gap: 50px;
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+}
+.team img {
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.team h3 {
+  font-weight: 100;
+  padding: 1rem 0;
+  gap: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #8e8c8c;
+  text-align: center;
+}
+.team p {
+  text-align: left;
+  word-spacing: 3px;
+  padding: 1rem 0;
+  color: #8e8c8c;
+  font-weight: 50;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-media {
+  padding: 3px;
+  font-size: 20px;
+  color: #8e8c8c;
+}
+.sevenParent {
+  padding: 2rem;
+}
+/* end section 7 */
+
+/* start contact form */
+.contact-form {
+  padding-bottom: 5rem;
+  background-color: #f0e6f0;
+}
+.contact {
+  font-size: 30px;
+  text-align: center;
+  padding: 100px 0;
+}
+/* end contact form */
+
+/* start footer */
+footer {
+  background-color: #444444;
+  padding: 110px 150px;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+.about,
+.features,
+.follow {
+  width: 20%;
+}
+
+.about,
+.newsletter {
+  width: 35%;
+}
+
+.features,
+.follow {
+  padding: 0 20px;
+  width: 15%;
+}
+
+.about p {
+  font-size: 15px;
+  color: #8e8c8c;
+  padding-top: 2rem;
+}
+.features a {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #8e8c8c;
+  display: block;
+}
+.features h3 {
+  padding-left: 20px;
+}
+.follow .social-media {
+  padding-top: 2rem;
+}
+.newsletter input {
+  width: 100%;
+  margin-top: 2rem;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+.newsletter button {
+  border: #0d85ca solid;
+  color: white;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  background-color: #0d85ca;
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+  outline: none;
+}
+/* end footer */
+
+/* Start contact form */
+
+.contact-box {
+  width: 60%;
+  background: #fff;
+  margin: auto;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.contact-box .contact-title {
+  margin-bottom: 2rem;
+}
+
+.contact-box form .input-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-box form input,
+.contact-box form textarea {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #9b9b9b;
+  font-size: 12px;
+}
+
+.contact-box form label {
+  margin-bottom: 0.5rem;
+  display: block;
+  text-transform: capitalize;
+  font-family: serif;
+  font-size: 1rem;
+}
+
+.contact-box form .names {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-box form .names .input-group:first-child {
+  width: 40%;
+}
+
+.contact-box form .names .input-group:last-child {
+  width: 55%;
+}
+.contact-form div button {
+  border: #0d85ca solid;
+  color: white;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  background-color: #0d85ca;
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+  outline: none;
+}
+/* End contact form */
